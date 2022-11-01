@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { questions } from "./questions";
-import { useState } from "react";
 
 export default function App() {
     const [currentQuestion, setCurrentQuestion] = React.useState(0);
